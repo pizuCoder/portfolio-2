@@ -1,0 +1,108 @@
+@media only screen and (max-width: 600px){
+    .mob-container{
+        padding: 15px;
+        /* margin-right: 20px; */
+        /* background-color: #B29DF5; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    .headerImg{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mob-text-part img,p{
+        width: 90%;
+    }
+    .mob-text-part p{
+        margin-top: 0;
+        font-size: 1.1em;
+    }
+    .mob-text-part{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    
+    p{
+        text-align: justify;
+    }
+    .mob-btn{
+        width: 50%;
+        height: 40px;
+        /* background-color: #111; */
+        /* color: white; */
+        font-size: 1em;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 10px;
+        margin-bottom: 1rem;
+    }
+    
+    dark-mode {
+        color: "white";
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+    .mob-my-img{
+        display: flex;
+        justify-content: center;
+    }
+    .web-container{
+        display: none;
+    }
+}
+@media only screen and (min-width: 601px){
+    .mob-container{
+        display: none;
+    }
+    .web-container{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-around;
+        /* align-items: flex-start */
+        /* padding: 2em 0; */
+        
+    }
+    .web-btn-group{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: flex-start;
+        overflow: hidden;
+        /* width: 60%; */
+    
+    }
+    .web-btn{
+        margin-left: 1rem;
+    }
+    .web-text-btn{
+        margin-left: 6rem;
+        overflow: hidden;
+    }
+    .web-my-img{
+        display: flex;
+        justify-content: center;
+    }
+    .web-text-btn, .web-my-img{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .icons{
+        margin-left: 2rem;
+    }
+    .headerImg{
+        display: flex;
+        justify-content: center;
+    }
+    #header-img{
+        width: 100%;
+    }
+}

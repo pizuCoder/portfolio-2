@@ -67,7 +67,7 @@ export default function NavBar(props, { isDarkMode }) {
       
       <div className="mob-nav-container" style={navStyle}>
         <div className="mob-nav">
-          <ToggleBtn toggled={isDarkMode} onClick={props.toggleDarkMode} />
+          <ToggleBtn toggled={props.isDarkMode} onClick={props.toggleDarkMode} />
 
           <Hamburger
             size={20}
