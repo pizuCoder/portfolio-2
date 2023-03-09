@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px){
+    .container, .webDev, .uiux {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 601px) {
+    .container, .webDev,.uiux{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .webCards, .uiuxCards
+     {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 2rem 4rem;
+        justify-content: space-around;
+        
+    }
+  }
+  
