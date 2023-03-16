@@ -1,6 +1,6 @@
 import { Turn as Hamburger } from "hamburger-react";
 import React from "react";
-import sampleResume from "../resume/sampleResume.pdf";
+import sampleResume from "../resume/priyamoghe-SDE1.pdf";
 import ToggleBtn from "./Togglebtn/ToggleBtn";
 import Nav from "react-bootstrap/Nav";
 // import Container from "react-bootstrap/Container";
@@ -143,7 +143,7 @@ export default function NavBar(props, { isDarkMode }) {
               <p>
                 <a
                   href={sampleResume}
-                  download="MyExampleDoc"
+                  download="priyamoghe-resume"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -253,7 +253,7 @@ export default function NavBar(props, { isDarkMode }) {
             >
               <a
                 href={sampleResume}
-                download="MyExampleDoc"
+                download="priyamoghe-resume"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "inherit", textDecoration: "none" }}

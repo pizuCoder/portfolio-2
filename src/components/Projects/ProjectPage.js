@@ -7,6 +7,7 @@ import paytm from '../assets/paytm-small.png'
 import parkit from '../assets/parkit-small.png'
 import quitcarbon from '../assets/quit-carbon-small.png'
 import quizzical from '../assets/quizzical-small.png'
+import memeGen from '../assets/meme-generator-thumbnail.png'
 
 import React from 'react'
 
@@ -20,7 +21,7 @@ export default function ProjectPage({isDarkMode}){
             title: 'Tenzies Game',
             description: `React based game where you tap on the dice to 
             change the number and keep tapping till all dice show same number`,
-            link: 'https://www.github.com'
+            link: 'https://github.com/pizuCoder/tenzies-game'
         },
         {
             id:'p2',
@@ -28,14 +29,14 @@ export default function ProjectPage({isDarkMode}){
             title: 'Quizzical',
             description: `React based quiz game where user gets 5 random 
             questions each time and is shown the score after finishing `,
-            link: 'https://www.github.com'
+            link: 'https://github.com/pizuCoder/quizzical'
         },
         {
             id:'p3',
-            imgSrc: 'something',
-            title: 'Expense Tracker',
-            description: `React based expense tracker website`,
-            link: 'https://www.github.com'
+            imgSrc: memeGen,
+            title: 'Meme Generator',
+            description: `React based mini app where the user can render text on the generated image and download the meme image`,
+            link: 'https://github.com/pizuCoder/meme-generator-app'
         }
     ]
     const uiuxData = [

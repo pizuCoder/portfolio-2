@@ -1,10 +1,10 @@
-import myImg from "../assets/myPic.jpeg";
+import myImg from "../assets/myImgMain.png";
 import headerImgLight from "../assets/priyamoghe-light-small.png";
 import headerImgDark from "../assets/priyamoghe-dark-small.png";
 import bigHeaderLight from "../assets/priyamoghe-light-web.png";
 import bigHeaderDark from "../assets/priyamoghe-dark-web.png";
 import Button from "react-bootstrap/Button";
-import sampleResume from "../resume/sampleResume.pdf";
+import sampleResume from "../resume/priyamoghe-SDE1.pdf";
 import "./LandingPage.css";
 import React from "react";
 
@@ -29,12 +29,9 @@ export default function LandingPage({ isDarkMode }) {
           />
           </div>
           <p
-            style={{ color: isDarkMode ? "#212529" : "white" }}
-          >{`Hi, my name is Priya, and I am a front-end developer and designer with experience 
-                  in UI design, graphic design, and illustration. I specialize in creating responsive and 
-                  user-friendly websites using JavaScript, Python, HTML, CSS, and React. My portfolio 
-                  showcases some of my best web development work and highlights my skills in both coding and 
-                  design.`}</p>
+            style={{ color: isDarkMode ? "#212529" : "white", fontSize:"1.5rem" }}
+          >{`Namaste! I'm Priya, a junior frontend developer, UI/UX designer and graphic designer based in India. 
+          I'm passionate about solving UX issues with clean code and innovative designs.`}</p>
         </div>
 
         <Button
@@ -57,7 +54,7 @@ export default function LandingPage({ isDarkMode }) {
             window.open(sampleResume, "_blank");
           }}
           variant={isDarkMode ? "dark" : "light"}
-          download="MyExampleDoc"
+          download="priyamoghe-resume"
           className="mob-btn"
         >
           RESUME
@@ -136,12 +133,9 @@ export default function LandingPage({ isDarkMode }) {
             />
             </div>
             <p
-              style={{ color: isDarkMode ? "#212529" : "white" }}
-            >{`Hi, my name is Priya, and I am a front-end developer and designer with experience 
-                  in UI design, graphic design, and illustration. I specialize in creating responsive and 
-                  user-friendly websites using JavaScript, Python, HTML, CSS, and React. My portfolio 
-                  showcases some of my best web development work and highlights my skills in both coding and 
-                  design.`}</p>
+              style={{ color: isDarkMode ? "#212529" : "white", fontSize: "1.5rem" }}
+            >{`Namaste! I'm Priya, a junior frontend developer, UI/UX designer and graphic designer based in India. 
+            I'm passionate about solving UX issues with clean code and innovative designs.`}</p>
           </div>
           <div className="web-btn-group">
             <Button
@@ -167,7 +161,7 @@ export default function LandingPage({ isDarkMode }) {
                 window.open(sampleResume, "_blank");
               }}
               variant={isDarkMode ? "dark" : "light"}
-              download="MyExampleDoc"
+              download="priyamoghe-resume"
               className="btn"
             >
               RESUME
