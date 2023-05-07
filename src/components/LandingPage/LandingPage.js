@@ -1,8 +1,8 @@
-import myImg from "../assets/myImgMain.png";
-import headerImgLight from "../assets/priyamoghe-light-small.png";
-import headerImgDark from "../assets/priyamoghe-dark-small.png";
-import bigHeaderLight from "../assets/priyamoghe-light-web.png";
-import bigHeaderDark from "../assets/priyamoghe-dark-web.png";
+// import myImg from "../assets/myImgMain.png";
+// import headerImgLight from "../assets/priyamoghe-light-small.png";
+// import headerImgDark from "../assets/priyamoghe-dark-small.png";
+// import bigHeaderLight from "../assets/priyamoghe-light-web.png";
+// import bigHeaderDark from "../assets/priyamoghe-dark-web.png";
 import Button from "react-bootstrap/Button";
 import sampleResume from "../resume/priyamoghe-SDE1.pdf";
 import "./LandingPage.css";
@@ -18,6 +18,13 @@ import mailLight from "../assets/mail-icon-light-small.png";
 import mailDark from "../assets/mail-icon-dark-small.png";
 
 export default function LandingPage({ isDarkMode }) {
+  const myImg = 'https://i.imgur.com/oDmViyl.jpeg'
+  const headerImgLight = 'https://i.imgur.com/iHInJZE.png'
+  const headerImgDark = 'https://i.imgur.com/3HoUd8u.png'
+  const bigHeaderLight = 'https://i.imgur.com/2grOLbC.png'
+  const bigHeaderDark = 'https://i.imgur.com/0mFGcXO.png'
+
+  
   return (
     <>
       <div className="mob-container">
